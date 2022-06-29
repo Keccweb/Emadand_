@@ -33,3 +33,18 @@ a{
 .order-now{
     margin-left: 500px;
 }
+.overlay{
+    backdrop-filter: blur(10px);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: ease-in-out 1s;
+}
+input{
+    padding: 20px;
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 15px;
+    text-align: center;
+}

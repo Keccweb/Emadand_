@@ -33,8 +33,30 @@
           <a class="nav-link" href="#">Pricing</a>
           <a class="nav-link disabled">Disabled</a>
         </div>
-        <div class="order-now mr-5">
-          <button class="btn btn-info">Order now</button>
+        <button style="margin-left: 650px;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="ordernow" data-bs-whatever="@mdo">Order now</button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form class="overlay">
+                    <input type="text" placeholder="First name" class="bi bi-person" required="required"><br>
+                    <input type="text" placeholder="Last name" class="bi bi-person" required="required"><br>
+                    <input type="text" placeholder="username" class="bi bi-person" required="required"><br>
+                    <input type="text" placeholder="Email" class="bi bi-person" required="required"><br>
+                    <input type="text" placeholder="Password" class="bi bi-person" required="required"><br>
+                    <input type="text" placeholder="Repeat Password" class="bi bi-person" required="required"><br>
+                </form>
+                <div class="modal-footer">
+                    <button class="btn btn-info">login</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
       </div>
     </div>
@@ -154,7 +176,7 @@
           <a href="https://www.instagram.com/chia.go.zie/"><i class="bi bi-instagram col-sm-3" style="font-size: 2rem;"></i></a>
           <a href="https://twitter.com/Bukakays"><i class="bi bi-twitter col-sm-3" style="font-size: 2rem;"></i></a>
         </div>
-        <div class="col-md-3 priv">
+        <div class="col-md-3">
           <h2><a class="nav-link disabled">Community</a></h2><br>
           <li><a href="">Privacy policy</a></li>
           <li><a href="">Lagos privacy notice</a></li>
@@ -165,6 +187,12 @@
       </div>
     </div>
   </footer>
+
+
+<!--sign up-->
+    <section>
+        
+    </section>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
