@@ -1,3 +1,7 @@
+.navbar{
+    /* position: fixed; */
+    /* width: 1900px; */
+}
 li{
     list-style: none;
     padding: 8px;
@@ -42,9 +46,16 @@ a{
 }
 input{
     padding: 20px;
-    height: 30px;
+    height: 25px;
     width: 250px;
     margin-top: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     text-align: center;
+}
+
+@media screen and (min-width: 400px) and (max-width: 900px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
 }
