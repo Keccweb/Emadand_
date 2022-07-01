@@ -13,5 +13,5 @@ function verify(){
 // } 
 
 bod.addEventListener('click',function fff(){
-    alert('website is ready')
+    alert('Coming soon')
 })
